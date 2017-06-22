@@ -21,15 +21,17 @@ Code here... https://github.com/pstuart/smartthings-ps/blob/master/devicetypes/g
 
 Edit preferences after install in devices in IDE or on App on phone:
 
+```
 -IP of the camera, this is your local ip, does NOT need to be publicly accessible
 -Port of the camera, typically 80 but could be anything
 -Path to image, different for each camera
-Panasonic Camera is "/SnapshotJPEG?Resolution=640x480&Quality=Clarity"
-D-Link is "/image/jpeg.cgi"
-Foscam is "/snapshot.cgi?user=${username}&pwd=${password}"
+   Panasonic Camera is "/SnapshotJPEG?Resolution=640x480&Quality=Clarity"
+   D-Link is "/image/jpeg.cgi"
+   Foscam is "/snapshot.cgi?user=${username}&pwd=${password}"
 -Requires Authentication or not (if you are going to embed the username and password in the path, do not set this to true)
 -Uses GET or POST (defaults to GET)
 -Username for authentication
 -Password for authentication
+```
 
 Plug in all these values and press the take button and viola, locally access camera will return an image.
