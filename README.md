@@ -20,6 +20,7 @@ Requirements:
 Code here... https://github.com/pstuart/smartthings-ps/blob/master/devicetypes/generic_camera.groovy1.6k
 
 Edit preferences after install in devices in IDE or on App on phone:
+
 -IP of the camera, this is your local ip, does NOT need to be publicly accessible
 -Port of the camera, typically 80 but could be anything
 -Path to image, different for each camera
