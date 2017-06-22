@@ -10,6 +10,8 @@ Either use drop down and edit in the child smartapp in IDE for your cameras
 or
 use the custom url to add any url to stream.
 
+## Developer Notes
+
 After a week of hacking around while waiting for support to respond to my ticket, I finally figured out how to do local http GET and parse the response for cameras.
 
 So I wrote this nice little generic camera device that I have tested with Panasonic Cameras and D-Link cameras and should work for any camera that has a url to retrieve the latest image.
